@@ -1,0 +1,15 @@
+notepad++
+exit
+notepad++
+exit
+pwd
+notepad++ .bash_profile
+alias npp='notepad++.exe -multiInst -nosession'
+exit
+npp
+exit
+cat ~/.gitconfig
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+git config --global --list
+git config --global -e
+exit

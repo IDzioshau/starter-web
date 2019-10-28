@@ -1,0 +1,23 @@
+pwd
+cd /d/Projects/IBA/Git
+pwd
+git version
+git config --global user.name "Ihar Dzioshau"
+git config --global user.email "IDzioshau@gomel.iba.by"
+git config --global core.autocrlf "true"
+git config --global --list
+git clone https://github.com/IDzioshau/github-demo.git
+ls
+cd github-demo/
+ls
+git status
+echo "Test Git Quick Start demo" >> start.txt
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "Adding start text file"
+git status
+git push origin master
+exit
