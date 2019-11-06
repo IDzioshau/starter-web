@@ -1,0 +1,45 @@
+    2  git status
+    3  git log --oneline --decorate --graph --all
+    4  git tag myTag
+    5  git log --oneline --decorate --graph --all
+    6  git tag --list
+    7  git show myTag
+    8  git tag --delete myTag
+    9  git tag --list
+   10  git log --oneline --decorate --graph --all
+   11  git tag -a v-1.0
+   12  git tag --list
+   13  git log --oneline --decorate --graph --all
+   14  git show v-1.0
+   15  git status
+   16  git tag --list
+   17  ls
+   18  npp index.html
+   19  git commit -a
+   20  git log --oneline --decorate --graph --all
+   21  git tag -a v-1.1
+   22  npp simple.html
+   23  git commit -am "Updating for tag 1.1"
+   24  git commit --amend
+   25  git tag v-1.2 -m "Release 1.2"
+   26  git tag --list
+   27  git log --oneline --decorate --graph --all
+   28  git diff v-1.0 v-1.2
+   29  git difftool v-1.0 v-1.2
+   30  git status
+   31  git log --oneline --decorate --graph --all
+   32  git tag -a v-0.9-beta 5ed1e05
+   33  git log --oneline --decorate --graph --all
+   34  git tag -a v-0.8-alpha e867f1b
+   35  git log --oneline --decorate --graph --all
+   36  git tag -a v-0.8-alpha -f b759e80
+   37  git log --oneline --decorate --graph --all
+   38  git tag --list
+   39  git log --oneline --decorate --graph --all
+   40  git push origin v-0.9-beta
+   41  git push origin v-1.1
+   42  git push origin master --tags
+   43  git tag --list
+   44  git push origin :v-0.8-alpha
+   45  git status
+   46  history >> history11.txt
