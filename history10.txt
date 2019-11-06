@@ -1,0 +1,82 @@
+    2  git status
+    3  ls
+    4  npp simple.html
+    5  git status
+    6  git stash
+    7  git status
+    8  npp simple.html
+    9  npp README.md
+   10  git status
+   11  git commit -am "Quick fix in production to improve copyright notice"
+   12  git status
+   13  git stash apply
+   14  git status
+   15  npp simple.html
+   16  git commit -am "Done with simple.html updates"
+   17  git status
+   18  git stash list
+   19  git stash drop
+   20  git status
+   21  git ls-files
+   22  npp humans.txt
+   23  git status
+   24  npp ANewFile.txt
+   25  git status
+   26  git stash
+   27  git status
+   28  git stash apply
+   29  git stash drop
+   30  git stash list
+   31  git stash -u
+   32  git status
+   33  git stash list
+   34  npp README.md
+   35  git commit -a
+   36  git status
+   37  git stash pop
+   38  git status
+   39  rm ANewFile.txt
+   40  git status
+   41  git commit -am "Updates to humans file after stash pop"
+   42  git status
+   43  npp simple.html
+   44  git stash save "simple change"
+   45  npp index.html
+   46  git stash save "index changes"
+   47  npp README.md
+   48  git stash save "Readme changes"
+   49  git stash list
+   50  git stash show stash@{1}
+   51  git status
+   52  git stash list
+   53  git stash apply stash@{1}
+   54  git stash list
+   55  git stash drop stash@{1}
+   56  git stash list
+   57  git stash clear
+   58  git stash list
+   59  git status
+   60  npp simple.html
+   61  npp humans.txt
+   62  git status
+   63  git add index.html
+   64  git status
+   65  npp new.md
+   66  git status
+   67  git stash -u
+   68  git status
+   69  git stash branch newchanges
+   70  git stash list
+   71  git sttus
+   72  git status
+   73  rm new.md
+   74  git add .
+   75  git status
+   76  git commit
+   77  git checkout master
+   78  git merge newchanges
+   79  git branch -d newchanges
+   80  git branch
+   81  git status
+   82  git pull origin master
+   83  history >> history10.txt
